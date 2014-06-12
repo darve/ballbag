@@ -5,7 +5,8 @@ $(function() {
     $('#lightbox').fadeIn();
     // Autoplay
     // $('#video')[0].src += "&autoplay=1";
-    $('#video_container').html('<iframe id="video" width="853" height="480" src="http://www.youtube.com/v/frfUORPk2O0?rel=0&enablejsapi=1&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>');
+    // $('#video_container').html('<iframe id="video" width="853" height="480" src="http://www.youtube.com/v/frfUORPk2O0?rel=0&enablejsapi=1&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>');
+    $('#video_container').html('<iframe src="//player.vimeo.com/video/98034185" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
   });
 
   // Lightbox fadeOut
